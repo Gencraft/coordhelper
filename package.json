@@ -3,6 +3,11 @@
     "version": "0.1.1",
     "description": "coordhelper is a Minecraft plugin that helps you save and remember your coordinates. Written in TypeScript.",
     "private": true,
+    "browser": {
+        "fs": false,
+        "path": false,
+        "os": false
+      },
     "scripts": {
         "build:jar": "crx build -o ./dist/coordhelper.jar",
         "build": "webpack --mode=production",
